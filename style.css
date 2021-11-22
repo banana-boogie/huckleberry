@@ -10,3 +10,76 @@ body {
 }
 
 /* Add styles here! */
+html {
+  font-size: 18px;
+}
+
+h1,
+h2,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.max-width-wrapper {
+  margin: auto;
+  max-width: 650px;
+  padding: 0 24px;
+}
+
+header {
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+
+.intro-chunk {
+  padding-top: 128px;
+  margin-bottom: 64px;
+}
+
+.intro-chunk .title {
+  padding-bottom: 64px;
+}
+
+.intro-chunk p {
+  max-width: 300px;
+  padding-bottom: 24px;
+}
+
+.intro-chunk strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+main {
+  height: 100%;
+  padding-top: 96px;
+  background-color: hsl(0deg, 0%, 60%);
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 24px;
+  margin: -24px; /* This is used to keep the words aligned - undo the movement from the padding */
+  border-bottom: 6px solid hsl(0deg, 0%, 40%);
+}
+
+.indented-heading {
+  font-size: 24px;
+  width: fit-content;
+  margin-top: -16px;
+  margin-bottom: 16px;
+  margin-left: -32px;
+  padding: 16px;
+  padding-left: 32px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 3px solid hsl(45deg, 100%, 40%);
+}
+
+.card p {
+  line-height: 1.25;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.card p:last-child {
+  padding-bottom: 0px;
+}
